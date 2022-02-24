@@ -1,0 +1,127 @@
+body {
+    font-family: "ZCOOLQuingKeHuangYou-Regular.ttf", sans-serif;
+    flex-wrap: wrap;
+    background-color: rgb(0, 0, 0);
+}
+p {
+    color: white;
+}
+a {
+    margin: 0 5px;
+    color: white;
+}
+ul {
+    list-style-type: none;
+    display: inline-block;
+}
+.Navigation {
+    align-items: flex-start;
+    border-bottom: solid 2px white;
+    display: flex;
+    height: 45px;
+    justify-content: space-between;
+}
+.FreshText {
+    color: white;
+
+}
+.NavList {
+    display: flex;
+    color: white;
+    
+}
+.Main {
+    color: white;
+    height: 800px;
+    width: auto;
+    background-image: url(main.jpg);
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    border-bottom: 2px solid white;
+}
+.paragraph {
+    text-align: center;
+    font-size: 32px;
+}
+.White {
+    opacity: 100%;
+}
+.bread {
+    justify-content: space-between;
+    height: 600px;
+    width: auto;
+    background-color: black;
+    display: flex;
+}
+.breadimg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 600px;
+    background-image: url(bread.jpg);
+}
+.breadWords {
+    margin: 0 50px;
+    color: white;
+    font-size: 32px;
+    height: 600px;
+    width: 900px;
+}
+.MainText {
+    width: 50%;
+    margin: 0 auto;
+}
+.opacity {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+.pineapple {
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+    height: 600px;
+    width: auto;
+    background-color: rgb(15, 15, 15);
+    display: flex;
+}
+.pineWords {
+    width: 900px;
+    color: white;
+    font-size: 32px;
+    height: 600px;
+}
+.pineImg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: flex-end;
+    height: 600px;
+    width: 600px;
+    background-image: url(pineapple.jpg);
+}
+.pasta {
+    justify-content: space-between;
+    height: 600px;
+    width: auto;
+    background-color: rgb(35, 35, 35);
+    display: flex;
+}
+.pastaImg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 600px;
+    background-image: url(pasta.jpg);
+}
+.pastaWords {
+    color: white;
+    font-size: 32px;
+    height: 600px;
+    width: 900px;
+}
